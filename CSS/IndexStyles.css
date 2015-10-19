@@ -1,0 +1,154 @@
+#ClemsonLogo{
+	width: 350px;
+	height: 100px;
+	background-image: url('Images/ClemsonLogo.png');
+	text-shadow: white 0px 0px 2px;
+	font-size: 16px;
+	background-size: 350px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#SectionContainer{
+	float: right;
+	height: 50px;
+}
+#Section{
+	height: 25px;
+	line-height: 50px;
+}
+
+.FormLabel{
+	font-size: 23px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.InstructionText{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	-webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+@media (min-width: 450px) {
+	#SectionContainer{
+		float: right;
+		height: 50px;
+	}
+}
+
+@media (min-width: 575px) {
+	#SectionContainer{
+		float: right;
+		height: 100px;
+	}
+	#Section{
+		height: 100px;
+		line-height: 150px;
+	}
+}
+
+.ColorBar{
+	border-top: 3px solid #3c156c;
+	border-left: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
+}
+
+.Border{
+	border-left: 1px solid lightgrey;
+}
+
+.TextboxError{
+	border-color: red !important;
+}
+
+.Hidden{
+	display: none;
+}
+
+.Active{
+	display: block;
+}
+
+.row{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.tblProcessedData{
+	width: 100%;
+}
+
+.TextInput {
+	margin: 5px 5px 5px 15px;
+    background: #FFF;
+    padding: 5px 5px 5px 12px;
+    width: 200px;
+    border: 1px solid #CCC;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+    -webkit-box-shadow: 0 1px 1px #CCC inset, 0 1px 0 #FFF;
+    box-shadow: 0 1px 1px #CCC inset, 0 1px 0 #FFF;
+}
+
+.TextInput:focus {
+    background-color: #FFF;
+    border-color: #E8C291;
+    outline: none;
+    -moz-box-shadow: 0 0 0 1px #e8c291 inset;
+    -webkit-box-shadow: 0 0 0 1px #E8C291 inset;
+    box-shadow: 0 0 0 1px #E8C291 inset;
+}
+
+#btnSubmit {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	float: right;
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
+	background:-moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0);
+	background-color:#ffffff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#3c156c;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    outline: none;
+    padding-bottom: 5px;
+}
+#btnSubmit:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
+	background:-moz-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:-webkit-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:-o-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:-ms-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0);
+	background-color:#f6f6f6;
+}
+#btnSubmit:active {
+	position:relative;
+	top:1px;
+    outline: none;
+}
